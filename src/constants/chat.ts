@@ -13,9 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  `You are ChatGPT, a large language model trained by OpenAI.
-Carefully heed the user's instructions. 
-Respond using Markdown.`;
+  `Carefully heed the user's instructions.`;
 
 export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo',
@@ -157,7 +155,7 @@ export const generateDefaultChat = (
   folder?: string
 ): ChatInterface => ({
   id: uuidv4(),
-  title: title ? title : 'New Chat',
+  title: title ? title : '新对话',
   messages:
     useStore.getState().defaultSystemMessage.length > 0
       ? [{ role: 'system', content: useStore.getState().defaultSystemMessage }]
