@@ -23,13 +23,17 @@ export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo-1106',
   'gpt-4',
   'gpt-4-32k',
-  'gpt-4-1106-preview'
-  // 'gpt-3.5-turbo-0301',
-  // 'gpt-4-0314',
-  // 'gpt-4-32k-0314',
+  'gpt-4-1106-preview',
+  'bing',
+  'claude-2',
+  'gemini-pro',
+  'google-palm',
+  'gpt-4-all',
+  'gpt-4-gizmo',
+  'net-gpt-4'
 ];
 
-export const defaultModel = 'gpt-3.5-turbo';
+export const defaultModel = 'gpt-4-1106-preview';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
@@ -45,6 +49,13 @@ export const modelMaxToken = {
   'gpt-4-32k-0314': 32768,
   'gpt-4-32k-0613': 32768,
   'gpt-4-1106-preview': 128000,
+  'bing': 128000,
+  'claude-2': 128000,
+  'gemini-pro': 128000,
+  'google-palm': 128000,
+  'gpt-4-all': 128000,
+  'gpt-4-gizmo': 128000,
+  'net-gpt-4': 128000
 };
 
 export const modelCost = {
@@ -100,6 +111,34 @@ export const modelCost = {
     prompt: { price: 0.01, unit: 1000 },
     completion: { price: 0.03, unit: 1000 },
   },
+  'bing': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'claude-2': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'gemini-pro': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'google-palm': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'gpt-4-all': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'gpt-4-gizmo': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  },
+  'net-gpt-4': {
+    prompt: { price: 0.01, unit: 1000 },
+    completion: { price: 0.03, unit: 1000 },
+  }
 };
 
 export const defaultUserMaxToken = 4000;
