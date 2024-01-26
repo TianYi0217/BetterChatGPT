@@ -52,7 +52,7 @@ export interface Folder {
 export type ModelOptions = 'gpt-4' | 'gpt-4-32k' | 'gpt-4-1106-preview' | 
 'gpt-3.5-turbo' | 'gpt-3.5-turbo-16k' | 'gpt-3.5-turbo-1106' | 'bing' | 
 'claude-2' | 'gemini-pro' | 'google-palm' | 'gpt-4-all' | 'gpt-4-gizmo' | 
-'net-gpt-4' | 'gpt-0125-preview' | 'net-gpt-3.5-turbo';
+'net-gpt-4' | 'gpt-4-0125-preview' | 'net-gpt-3.5-turbo';
 
 // | 'gpt-3.5-turbo-0301';
 // | 'gpt-4-0314'
