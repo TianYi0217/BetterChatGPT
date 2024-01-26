@@ -28,7 +28,10 @@ export const modelOptions: ModelOptions[] = [
   'google-palm',
   'gpt-4-all',
   'gpt-4-gizmo',
-  'net-gpt-4'
+  'net-gpt-4',
+  'gpt-0125-preview',
+  'net-gpt-3.5-turbo'
+
 ];
 
 export const defaultModel = 'gpt-4-1106-preview';
@@ -53,7 +56,9 @@ export const modelMaxToken = {
   'google-palm': 128000,
   'gpt-4-all': 128000,
   'gpt-4-gizmo': 128000,
-  'net-gpt-4': 128000
+  'net-gpt-4': 128000,
+  'gpt-0125-preview': 64000,
+  'net-gpt-3.5-turbo': 4096,
 };
 
 export const modelCost = {
@@ -136,7 +141,16 @@ export const modelCost = {
   'net-gpt-4': {
     prompt: { price: 0.01, unit: 1000 },
     completion: { price: 0.03, unit: 1000 },
-  }
+  },
+  'gpt-0125-preview': {
+    prompt: { price: 0.001, unit: 1000 },
+    completion: { price: 0.0015, unit: 1000 },
+  },
+  'net-gpt-3.5-turbo': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 },
+  },
+
 };
 
 export const defaultUserMaxToken = 4000;
