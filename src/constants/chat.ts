@@ -30,9 +30,15 @@ export const modelOptions: ModelOptions[] = [
   'gpt-4-gizmo',
   'net-gpt-4',
   'gpt-4-0125-preview',
-  'net-gpt-3.5-turbo'
-
+  'net-gpt-3.5-turbo',
+  'claude-2-100k',
+  'claude-3-opus',
+  'claude-3-opus-20240229',
+  'claude-3-sonnet',
+  'claude-3-sonnet-20240229',
+  'mj-chat'
 ];
+
 
 export const defaultModel = 'gpt-4-0125-preview';
 
@@ -59,6 +65,12 @@ export const modelMaxToken = {
   'net-gpt-4': 128000,
   'gpt-4-0125-preview': 64000,
   'net-gpt-3.5-turbo': 4096,
+  'claude-2-100k': 200000,
+  'claude-3-opus': 200000,
+  'claude-3-opus-20240229': 200000,
+  'claude-3-sonnet': 200000,
+  'claude-3-sonnet-20240229': 200000,
+  'mj-chat': 200000,
 };
 
 export const modelCost = {
@@ -149,6 +161,30 @@ export const modelCost = {
   'net-gpt-3.5-turbo': {
     prompt: { price: 0.0015, unit: 1000 },
     completion: { price: 0.002, unit: 1000 },
+  },
+  'claude-2-100k': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
+  },
+  'claude-3-opus': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
+  },
+  'claude-3-opus-20240229': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
+  },
+  'claude-3-sonnet': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
+  },
+  'claude-3-sonnet-20240229': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
+  },
+  'mj-chat': {
+    prompt: { price: 0.0020, unit: 1000 },
+    completion: { price: 0.0025, unit: 1000 },
   },
 
 };
