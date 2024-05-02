@@ -28,7 +28,7 @@ export const modelOptions: ModelOptions[] = [
   'net-gpt-4',
   'gpt-4-0125-preview',
   'net-gpt-3.5-turbo',
-  'gpt-4-tubro',  
+  'gpt-4-turbo',  
   'claude-2-100k',
   'claude-3-opus',
   'claude-3-opus-20240229',
@@ -38,7 +38,7 @@ export const modelOptions: ModelOptions[] = [
 ];
 
 
-export const defaultModel = 'gpt-4-0125-preview';
+export const defaultModel = 'gpt-4-turbo';
 
 export const modelMaxToken = {
   'gpt-3.5-turbo': 4096,
@@ -54,7 +54,7 @@ export const modelMaxToken = {
   'gpt-4-32k-0314': 32768,
   'gpt-4-32k-0613': 32768,
   'gpt-4-1106-preview': 128000,
-  'gpt-4-tubro': 128000,  
+  'gpt-4-turbo': 128000,  
   'bing': 128000,
   'claude-2': 128000,
   'gemini-pro': 128000,
@@ -145,7 +145,7 @@ export const modelCost = {
     prompt: { price: 0.01, unit: 1000 },
     completion: { price: 0.03, unit: 1000 },
   },
-  'gpt-4-tubro': {
+  'gpt-4-turbo': {
     prompt: { price: 0.02, unit: 1000 },
     completion: { price: 0.06, unit: 1000 },
   },
