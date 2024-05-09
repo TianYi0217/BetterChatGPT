@@ -48,12 +48,24 @@ export interface Folder {
   order: number;
   color?: string;
 }
-
-export type ModelOptions = 'gpt-4-turbo' | 'gpt-4' | 'gpt-4-32k' | 'gpt-4-1106-preview' | 
-'gpt-3.5-turbo' | 'gpt-3.5-turbo-16k' | 'gpt-3.5-turbo-1106' | 'bing' | 
-'claude-2' | 'gemini-pro' | 'google-palm' | 'gpt-4-all' | 'gpt-4-gizmo' | 
-'net-gpt-4' | 'gpt-4-0125-preview' | 'net-gpt-3.5-turbo' |
-'claude-2-100k' | 'claude-3-opus' | 'claude-3-opus-20240229' | 'claude-3-sonnet' | 'claude-3-sonnet-20240229' | 'mj-chat';
+export type ModelOptions = 
+    'gpt-4-turbo' | 
+    'claude-3-opus-20240229' |
+    'gpt-4' |
+    'gpt-4-all' |
+    'mj-chat' |
+    'stable-diffusion' |
+    'suno-v3' |
+    'glm-4' |
+    'dall-e-3' |
+    'gpt-4-turbo-preview' |
+    'claude-3-sonnet-20240229' |
+    'claude-3-haiku-20240307' |
+    'gemini-pro' |
+    'gpt-4-32k' |
+    'net-gpt-4' |
+    'gpt-3.5-turbo' |
+    'gpt-3.5-turbo-16k';
 // | 'gpt-3.5-turbo-0301';
 // | 'gpt-4-0314'
 // | 'gpt-4-32k-0314'
