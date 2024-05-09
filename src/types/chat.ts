@@ -57,7 +57,6 @@ export type ModelOptions =
     'stable-diffusion' |
     'suno-v3' |
     'glm-4' |
-    'dall-e-3' |
     'gpt-4-turbo-preview' |
     'claude-3-sonnet-20240229' |
     'claude-3-haiku-20240307' |

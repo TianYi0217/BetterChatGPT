@@ -24,7 +24,6 @@ export const _defaultSystemMessage =
     'stable-diffusion',
     'suno-v3',
     'glm-4',
-    'dall-e-3',
     'gpt-4-turbo-preview',
     'claude-3-sonnet-20240229',
     'claude-3-haiku-20240307',
@@ -48,7 +47,6 @@ export const modelMaxToken = {
   'stable-diffusion': 4096,
   'suno-v3': 4096,
   'glm-4': 131072,
-  'dall-e-3': 4096,
   'gpt-4-turbo-preview': 131072,
   'claude-3-sonnet-20240229': 204800,
   'claude-3-haiku-20240307': 204800,
@@ -92,10 +90,6 @@ export const modelCost = {
   'glm-4': {
     prompt: { price: 0.06, unit: 1000 },
     completion: { price: 0.06, unit: 1000 },
-  },
-  'dall-e-3': {
-    prompt: { price: 0.8, unit: 1000 },
-    completion: { price: 0.8, unit: 1000 },
   },
   'gpt-4-turbo-preview': {
     prompt: { price: 0.01, unit: 1000 },
