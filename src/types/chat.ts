@@ -53,18 +53,14 @@ export type ModelOptions =
     'claude-3-opus-20240229' |
     'gpt-4' |
     'gpt-4-all' |
-    'mj-chat' |
-    'stable-diffusion' |
-    'suno-v3' |
-    'glm-4' |
-    'gpt-4-turbo-preview' |
     'claude-3-sonnet-20240229' |
-    'claude-3-haiku-20240307' |
-    'gemini-pro' |
-    'gpt-4-32k' |
-    'net-gpt-4' |
-    'gpt-3.5-turbo' |
-    'gpt-3.5-turbo-16k';
+    'gpt-4o' |
+    'gpt-4o-mini' |
+    'o1-mini' |
+    'o1-preview' |
+    'claude-3-5-sonnet-20240620' |
+    'deepseek-chat';
+
 // | 'gpt-3.5-turbo-0301';
 // | 'gpt-4-0314'
 // | 'gpt-4-32k-0314'
