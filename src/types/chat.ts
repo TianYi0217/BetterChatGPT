@@ -59,7 +59,9 @@ export type ModelOptions =
     'o1-mini' |
     'o1-preview' |
     'claude-3-5-sonnet-20240620' |
-    'deepseek-chat';
+    'deepseek-chat' |
+    'gpt-3.5-turbo' |
+    'gpt-3.5-turbo-16k';
 
 // | 'gpt-3.5-turbo-0301';
 // | 'gpt-4-0314'

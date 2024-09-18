@@ -27,6 +27,8 @@ export const modelOptions: ModelOptions[] = [
   'gpt-4o',
   'gpt-4o-mini',
   'deepseek-chat',
+  'gpt-3.5-turbo',
+  'gpt-3.5-turbo-16k',
 ];
 
 export const defaultModel = 'claude-3-5-sonnet-20240620';
@@ -43,6 +45,8 @@ export const modelMaxToken = {
   'o1-preview': 131072, // 假设值，请根据实际情况调整
   'claude-3-5-sonnet-20240620': 204800, // 假设值，请根据实际情况调整
   'deepseek-chat': 32000, // 假设值，请根据实际情况调整
+  'gpt-3.5-turbo': 4096,
+  'gpt-3.5-turbo-16k': 16384,
 };
 
 export const modelCost = {
@@ -89,6 +93,14 @@ export const modelCost = {
   'deepseek-chat': {
     prompt: { price: 0.0004, unit: 1000 },
     completion: { price: 0.0008, unit: 1000 },
+  },
+  'gpt-3.5-turbo': {
+    prompt: { price: 0.0015, unit: 1000 },
+    completion: { price: 0.002, unit: 1000 },
+  },
+  'gpt-3.5-turbo-16k': {
+    prompt: { price: 0.003, unit: 1000 },
+    completion: { price: 0.004, unit: 1000 },
   },
 };
 
