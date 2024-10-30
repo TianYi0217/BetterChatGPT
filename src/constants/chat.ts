@@ -16,6 +16,7 @@ export const _defaultSystemMessage =
   `Carefully heed the user's instructions.`;
 
 export const modelOptions: ModelOptions[] = [
+  'claude-3-5-sonnet-20241022',
   'claude-3-5-sonnet-20240620',
   'o1-preview',
   'o1-mini',
@@ -31,9 +32,10 @@ export const modelOptions: ModelOptions[] = [
   'gpt-3.5-turbo-16k',
 ];
 
-export const defaultModel = 'claude-3-5-sonnet-20240620';
+export const defaultModel = 'claude-3-5-sonnet-20241022';
 
 export const modelMaxToken = {
+  'claude-3-5-sonnet-20241022': 204800,
   'gpt-4-turbo': 131072,
   'claude-3-opus-20240229': 204800,
   'gpt-4': 8192,
@@ -50,6 +52,10 @@ export const modelMaxToken = {
 };
 
 export const modelCost = {
+  'claude-3-5-sonnet-20241022': {
+    prompt: { price: 0.003, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
   'gpt-4-turbo': {
     prompt: { price: 0.01, unit: 1000 },
     completion: { price: 0.03, unit: 1000 },
