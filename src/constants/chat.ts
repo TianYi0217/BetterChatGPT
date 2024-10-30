@@ -41,12 +41,12 @@ export const modelMaxToken = {
   'gpt-4': 8192,
   'gpt-4-all': 131072,
   'claude-3-sonnet-20240229': 204800,
-  'gpt-4o': 131072, // 假设值，请根据实际情况调整
-  'gpt-4o-mini': 131072, // 假设值，请根据实际情况调整
-  'o1-mini': 131072, // 假设值，请根据实际情况调整
-  'o1-preview': 131072, // 假设值，请根据实际情况调整
-  'claude-3-5-sonnet-20240620': 204800, // 假设值，请根据实际情况调整
-  'deepseek-chat': 32000, // 假设值，请根据实际情况调整
+  'gpt-4o': 131072, 
+  'gpt-4o-mini': 131072, 
+  'o1-mini': 131072, 
+  'o1-preview': 131072, 
+  'claude-3-5-sonnet-20240620': 204800, 
+  'deepseek-chat': 32000, 
   'gpt-3.5-turbo': 4096,
   'gpt-3.5-turbo-16k': 16384,
 };
